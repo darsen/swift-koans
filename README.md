@@ -1,2 +1,2 @@
 # swift-koans
-Learn Swift programming language through koans.
+Learn Swift programming language through koans. 

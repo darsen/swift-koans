@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5FA2291B66C4F50084CCDF /* AboutStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FA2281B66C4F50084CCDF /* AboutStrings.swift */; };
 		4C9DA0BC1B5D7A9E00B2F9D4 /* AboutPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DA0BB1B5D7A9E00B2F9D4 /* AboutPrimitives.swift */; };
 		4CD378E91B55FA9400579D97 /* koans.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD378E81B55FA9400579D97 /* koans.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD378EF1B55FA9500579D97 /* koans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD378E31B55FA9400579D97 /* koans.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C5FA2281B66C4F50084CCDF /* AboutStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutStrings.swift; sourceTree = "<group>"; };
 		4C9DA0BB1B5D7A9E00B2F9D4 /* AboutPrimitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPrimitives.swift; sourceTree = "<group>"; };
 		4CD378E31B55FA9400579D97 /* koans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = koans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD378E71B55FA9400579D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		4CD378F21B55FA9500579D97 /* koansTests */ = {
 			isa = PBXGroup;
 			children = (
+				4C5FA2281B66C4F50084CCDF /* AboutStrings.swift */,
 				4CD378FF1B58416400579D97 /* Core */,
 				4CD378F51B55FA9500579D97 /* AboutAssert.swift */,
 				4CD378F31B55FA9500579D97 /* Supporting Files */,
@@ -232,6 +235,7 @@
 			files = (
 				4CD379011B58424B00579D97 /* KoanTest.swift in Sources */,
 				4CD378F61B55FA9500579D97 /* AboutAssert.swift in Sources */,
+				4C5FA2291B66C4F50084CCDF /* AboutStrings.swift in Sources */,
 				4C9DA0BC1B5D7A9E00B2F9D4 /* AboutPrimitives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
