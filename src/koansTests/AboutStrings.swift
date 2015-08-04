@@ -23,6 +23,18 @@ class AboutStrings: KoanTest {
         XCTAssertEqual(__ , world, "replace __ to make it work")
     }
     
+    func test_StringCharacterConcatenation(){
+        let cat:Character = "🐱"
+        let dog:Character = "🐶"
+        var gettingAlong = "like "
+        gettingAlong.append(cat)
+        gettingAlong.append("s" as Character)
+        gettingAlong += " and "
+        gettingAlong.append(dog)
+        gettingAlong.append("s" as Character)
+        XCTAssertEqual(__ , gettingAlong, "replace __ to make it work")
+    }
+    
     func test_StringInterpolation(){
         let money = "$"
         let world = "\(money)\(money)\(money) makes the world go around"
