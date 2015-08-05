@@ -14,6 +14,12 @@ class AboutPrimitives: KoanTest {
         XCTAssertEqual(__ , toString(wholeNumber.dynamicType), "replace __ to make it work")
     }
     
+    func test_IntLiteralWithUnderscoreForGroupingDigits(){
+        var literalWithUnderscores = 1_000_000
+        literalWithUnderscores++
+        XCTAssertEqual(______ , literalWithUnderscores, "replace __ to make it work")
+    }
+    
     func test_DecimalInferredTypeIsDouble(){
         let decimalNumber = 1.41
         XCTAssertEqual(__ , toString(decimalNumber.dynamicType), "replace __ to make it work")
@@ -26,6 +32,11 @@ class AboutPrimitives: KoanTest {
     
     func test_StringInferredTypeIsString(){
         let inferredString = "I am a string"
+        XCTAssertEqual(__ , toString(inferredString.dynamicType), "replace __ to make it work")
+    }
+    
+    func test_SingleCharacterStringInferredTypeIsString(){
+        let inferredString = "!"
         XCTAssertEqual(__ , toString(inferredString.dynamicType), "replace __ to make it work")
     }
     

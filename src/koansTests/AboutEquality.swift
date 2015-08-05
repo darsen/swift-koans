@@ -32,4 +32,18 @@ class AboutEquality: KoanTest {
         XCTAssertEqual(____, areIdentical, "replace ____ to make it work")
     }
     
+    func test_UserDefinedNamedTypeEquality(){
+        let firstFoo = Foo()
+        let secondFoo = Foo()
+        XCTAssertEqual(firstFoo, secondFoo, "replace AboutEquality().___ in Foo class to make it work")
+    }
+    
+}
+
+class Foo:  Equatable{
+    var bar = "are we equal?"
+}
+
+func ==(left: Foo, right: Foo) -> Bool {
+    return AboutEquality().___
 }
