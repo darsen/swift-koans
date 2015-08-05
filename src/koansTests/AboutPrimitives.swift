@@ -55,6 +55,11 @@ class AboutPrimitives: KoanTest {
         let blackHeart = "\u{2665}"      // ♥,  Unicode scalar U+2665
         XCTAssertEqual("I\u{2665}__" , "I♥$", "replace __ to make it work")
     }
-
+    
+    func test_JoinStrings(){
+        let names = ["Alice", "Bob", "Carol"]
+        let joined = ":".join(names)
+        XCTAssertEqual(__ , joined, "replace __ to make it work")
+    }
     
 }
