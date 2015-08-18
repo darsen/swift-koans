@@ -39,6 +39,6 @@ class AboutAssert: KoanTest {
     }
     
     func test_assertEqualityWithAccuracy() {
-        XCTAssertEqualWithAccuracy(2.3455, 2.3456, _______)
+        XCTAssertEqualWithAccuracy(2.3455, 2.3456, accuracy: _______)
     }
 }
