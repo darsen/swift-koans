@@ -8,6 +8,10 @@ class AboutExtensions: KoanTest{
         XCTAssertEqual(__, original.reverse(), "replace __ to make it work")
     }
     
+    func test_DefineSubscriptWithExtension(){
+        let number = 987654321
+        XCTAssertEqual(__, number[3], "replace __ to make it work")
+    }
 }
 
 extension String {
@@ -17,5 +21,12 @@ extension String {
             reversed.append(char)
         }
         return reversed
+    }
+}
+
+extension Int {
+    subscript(var digitIndex: Int) -> String {
+        var array = Array(String(self).characters)
+        return String(array[digitIndex-1])
     }
 }
