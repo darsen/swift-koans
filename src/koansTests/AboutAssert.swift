@@ -1,3 +1,4 @@
+//Done
 import XCTest
 
 class AboutAssert: KoanTest {
@@ -7,38 +8,38 @@ class AboutAssert: KoanTest {
     }
     
     func test_assertTrue() {
-        XCTAssert(___, "replace ___ to make it work")
+        XCTAssert(true, "replace ___ to make it work")
     }
     
     func test_assertFalse() {
-        XCTAssertFalse(____, "replace ____ to make it work")
+        XCTAssertFalse(false, "replace ____ to make it work")
     }
     
     func test_assertTrueWithoutMessages() {
-        XCTAssertTrue(___)
+        XCTAssertTrue(true)
     }
     
     func test_assertNil() {
-        XCTAssertNil(___, "replace ___ to make it work");
+        XCTAssertNil(nil, "replace ___ to make it work");
     }
     
     func test_assertNotNil(){
-        XCTAssertNotNil(_____,"replace _____ to make it work");
+        XCTAssertNotNil("","replace _____ to make it work");
     }
     
-    func test_asserGreaterThan(){
-        XCTAssertGreaterThan( ______, 3, "replace _____ to make it work");
+    func test_assertGreaterThan(){
+        XCTAssertGreaterThan(4, 3, "replace _____ to make it work");
     }
     
     func test_assertEquality() {
-        XCTAssertEqual(__, "Expected", "replace __ to make it work");
+        XCTAssertEqual("Expected", "Expected", "replace __ to make it work");
     }
     
     func test_assertNotEqual() {
-        XCTAssertNotEqual("Expected", "Expected")
+        XCTAssertNotEqual("Expect", "the unExpected")
     }
     
     func test_assertEqualityWithAccuracy() {
-        XCTAssertEqualWithAccuracy(2.3455, 2.3456, _______)
+        XCTAssertEqualWithAccuracy(2.3455, 2.3456, 0.02)
     }
 }

@@ -17,7 +17,7 @@ class AboutPrimitives: KoanTest {
     func test_IntLiteralWithUnderscoreForGroupingDigits(){
         var literalWithUnderscores = 1_000_000
         literalWithUnderscores++
-        XCTAssertEqual(______ , literalWithUnderscores, "replace __ to make it work")
+        XCTAssertEqual(1_000_001 , literalWithUnderscores, "replace __ to make it work")
     }
     
     func test_DecimalInferredTypeIsDouble(){
