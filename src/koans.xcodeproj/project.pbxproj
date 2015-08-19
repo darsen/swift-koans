@@ -16,6 +16,7 @@
 		4CD378EF1B55FA9500579D97 /* koans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD378E31B55FA9400579D97 /* koans.framework */; };
 		4CD378F61B55FA9500579D97 /* AboutAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD378F51B55FA9500579D97 /* AboutAssert.swift */; };
 		4CD379011B58424B00579D97 /* KoanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD379001B58424B00579D97 /* KoanTest.swift */; };
+		6311CBD91B84F4C700D8210C /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311CBD81B84F4C700D8210C /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		4CD378F41B55FA9500579D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD378F51B55FA9500579D97 /* AboutAssert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAssert.swift; sourceTree = "<group>"; };
 		4CD379001B58424B00579D97 /* KoanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoanTest.swift; sourceTree = "<group>"; };
+		6311CBD81B84F4C700D8210C /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD378F41B55FA9500579D97 /* Info.plist */,
+				6311CBD81B84F4C700D8210C /* TestFile.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8D2A5B1B6DC4BF00AC6A5E /* AboutEquality.swift in Sources */,
+				6311CBD91B84F4C700D8210C /* TestFile.swift in Sources */,
 				4C6B24BA1B729240001C18A9 /* AboutArrays.swift in Sources */,
 				4CD379011B58424B00579D97 /* KoanTest.swift in Sources */,
 				4CD378F61B55FA9500579D97 /* AboutAssert.swift in Sources */,
