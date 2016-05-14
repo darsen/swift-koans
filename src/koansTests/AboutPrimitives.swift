@@ -58,7 +58,7 @@ class AboutPrimitives: KoanTest {
     
     func test_JoinStrings(){
         let names = ["Alice", "Bob", "Carol"]
-        let joined = ":".join(names)
+        let joined = names.joinWithSeparator("-")
         XCTAssertEqual(__ , joined, "replace __ to make it work")
     }
     
